@@ -46,7 +46,7 @@ summary_table <- function(df){
     out
 }
 
-# Define server logic required to draw a histogram
+# Define server logic 
 shinyServer(function(input, output) {
   observe({
     state <-input$state
