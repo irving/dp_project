@@ -14,8 +14,8 @@ The crimes included are the most serious of what is known as "index crimes." The
 1.1 This is the state whose crime stats you want to see. The application opens with Alabama to show you what to expect.
 2. Optionally you may select one or more crimes by checking the check boxes below the label "Select crime(s)" as required. If no crime is selected, the resluting plot will show them all.
 3. Click the button labeled "Show state plot."
-3.1 The application will show a year by year graph of the selected crime(s) for the selected state and some summary statistics below.
-4. Repeat as desired. That's it!
+4. The application will show a year by year graph of the selected crime(s) for the selected state and some summary statistics below.
+5. Repeat as desired. That's it!
 
 ## Source ##
 
