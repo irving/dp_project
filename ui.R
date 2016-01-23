@@ -23,13 +23,6 @@ shinyUI(fluidPage(
       ),
       
       plotlyOutput("crime_plot"),
-      
-      # simplest and best presentation is to show each crime separately
-      # rather than try to build one big string for it all
-      #htmlOutput("murder_stats"),
-      #htmlOutput("rape_stats"),
-      #htmlOutput("assault_stats"),
-      #htmlOutput("robbery_stats")
       dataTableOutput("stats")
       
     ),
