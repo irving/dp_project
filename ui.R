@@ -7,18 +7,33 @@ shinyUI(fluidPage(
   # Application title
   titlePanel("Violent crimes in the US"),
 
-  fluidRow(
-    column(6, offset = 2,
-       selectInput("state", "Select a US state:", 
-                   choices = state_names),
-       
-       checkboxGroupInput("crimes", "Select crime(s):", inline = TRUE,
-                          crime_names),
-       p(em("For convenience, if no crimes are selected, the plot will show them all.")),
-       
-       submitButton("Show State Plot")     
-    )
-  ),
-  
-  plotlyOutput("crime_plot")     
+  tabsetPanel(
+    tabPanel("Main", 
+      fluidRow(
+        column(6, offset = 2,
+           selectInput("state", "Select a US state:", 
+                       choices = state_names),
+           
+           checkboxGroupInput("crimes", "Select crime(s):", inline = TRUE,
+                              crime_names),
+           p(em("For convenience, if no crimes are selected, the plot will show them all.")),
+           
+           submitButton("Show State Plot")     
+        )
+      ),
+      
+      plotlyOutput("crime_plot"),
+      
+      # simplest and best presentation is to show each crime separately
+      # rather than try to build one big string for it all
+      #htmlOutput("murder_stats"),
+      #htmlOutput("rape_stats"),
+      #htmlOutput("assault_stats"),
+      #htmlOutput("robbery_stats")
+      dataTableOutput("stats")
+      
+    ),
+    
+    tabPanel("Readme", includeMarkdown("README.md"))
+  )
 ))
