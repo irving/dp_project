@@ -1,0 +1,3 @@
+http://www.ucrdatatool.gov/Search/Crime/State/RunCrimeStatebyState.cfm
+
+Start from page and select all states in the left box, then "number of violent crimes" in the middle then all the years from 1960 until 2012 on the right. Then get table and download the csv.
