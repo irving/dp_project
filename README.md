@@ -10,7 +10,7 @@ A live version of this project can be found at https://dpirv.shinyapps.io/dp_pro
 
 ### Instructions ###
 
-This application displays crime incident stats for each of the U.S. states (plus the district of Columbia) from 1960 until 2010. (Except for the state of NY which has no data for 1960 to 1964).
+This application displays crime incident stats for each of the U.S. states (plus the district of Columbia) from 1960 until 2012. (Except for the state of NY which has no data for 1960 to 1964).
 
 The crimes included are the most serious of what is known as "index crimes." These are crimes tracked by the FBI. This application shows numbers for murder, forcible rape, aggravated assault and robbery (stealing with force).
 
