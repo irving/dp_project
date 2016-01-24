@@ -4,6 +4,10 @@
 
 This document explains the State-by-State Crimes app developed for part one of the final project for the Coursera Developing Data Products class.
 
+## Location ##
+
+A live version of this project can be found at https://dpirv.shinyapps.io/dp_project/.
+
 ### Instructions ###
 
 This application displays crime incident stats for each of the U.S. states (plus the district of Columbia) from 1960 until 2010. (Except for the state of NY which has no data for 1960 to 1964).
@@ -28,4 +32,4 @@ Starting from the above referenced page, select the following:
 3. In the right hand box select all the years from 1960 until 2012
 4. Click "get table"
 5. On the resulting page there is a link to download the csv.
-6. Preparation of the csv was done with a script included in the project repository at 
+6. Preparation of the csv was done with a script included in the project repository at https://github.com/irving/dp_project.
